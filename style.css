@@ -1,0 +1,97 @@
+
+
+  * {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0px;
+    font-family: 'segoe ui';
+    background-image: url("images/tor.jpg");
+    font-size: 18px;
+    height: 600px;
+    margin-top: 80px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+
+  .posi{
+    position: relative;
+    z-index: 0;
+  }
+
+  .p1{
+    position: absolute;
+    font-size: 80px;
+    font-weight: bold;
+    top: 200px;
+    left: 100px;
+  }
+
+  .p2{
+    position: absolute;
+    top: 430px;
+    left: 100px;
+    width: 450px;
+  }
+  
+  .nav {
+    height: 50px;
+    width: 100%;
+    background-color: #0e0d0d;
+    position: fixed;
+    top: 0px;
+    height: 80px;
+    padding: 18px 0px;
+    z-index: 1;
+  }
+  
+  .nav > .nav-header {
+    display: inline;
+  }
+/* 
+  .font-imag{
+   
+    } */
+
+.spa-pa{
+    line-height: 20px;
+}
+  
+  .nav > .nav-header > .nav-title {
+    display: inline-block;
+    font-size: 22px;
+    color: #fff;
+    margin-bottom: 20px;
+    margin-left: 50px;
+  }
+  
+  .nav > .nav-btn {
+    display: none;
+  }
+  
+  .nav > .nav-links {
+    display: inline;
+    float: right;
+    font-size: 18px;
+    margin-right: 50px;
+    font-weight: bold;
+  }
+  
+  .nav > .nav-links > a {
+    display: inline-block;
+    padding: 13px 10px 13px 10px;
+    text-decoration: none;
+    color: #efefef;
+  }
+  
+  .nav > .nav-links > a:hover {
+    background-color: #0e0d0d;
+  }
+  
+  .nav > #nav-check {
+    display: none;
+  }
+  
+ 
